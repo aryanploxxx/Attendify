@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: url('background.jpg');
+    /* background-size: 50%; */
+    /* background-color: red; */
+    background-attachment: fixed;
+
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url("Gilroy-ExtraBold.otf");
+}
+
+.page1 {
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.page1>img {
+    z-index: -1;
+    width: 100vw;
+    position: absolute;
+}
+
+.nav {
+    height: 10vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.nav-left {
+    margin-left: 5vw;
+}
+
+.nav-left>img {
+    margin-top: 10px;
+    width: 15vw;
+}
+
+.nav-right {
+    margin-right: 5vw;
+}
+
+.nav-right .btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+.nav-right .btn:hover{
+    padding: 10px 35px;
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.page1-inner {
+    z-index: 1;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 54px;
+    font-family: 'gilroy';
+    font-weight: 600;
+    line-height: 1;
+}
+
+.login-page1-inner {
+    z-index: 1;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'gilroy';
+    font-weight: 600;
+    line-height: 1;
+}
+
+
+.login {
+    width: 17vw;
+    padding: 15px 25px;
+    font-size: 26px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+    font-family: 'gilroy';
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.login:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+}
+
+
+#submit_form {
+    width: 29.5vw;
+    padding: 15px 25px;
+    font-size: 26px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+    font-family: 'gilroy';
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+input {
+    width: 26vw;
+    padding: 15px 25px;
+    font-size: 26px;
+    border-radius: 10px;
+    font-family: 'gilroy';
+    /* margin-bottom: 10px; */
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+#forgot-pass {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.webcam {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera-svg {
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+
+#upload-btn {
+    width: 10vw;
+    padding: 5px 30px;
+    font-size: 26px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'gilroy';
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.wrap {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
